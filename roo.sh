@@ -1,0 +1,1 @@
+/Users/whediger/Documents/java/Spring/spring-roo-2.0.0.M3/bin/roo.sh

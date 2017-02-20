@@ -1,0 +1,17 @@
+// Spring Roo 2.0.0.M3 [rev 20a0f71] log opened at 2017-02-19 18:10:44
+exit
+// Spring Roo 2.0.0.M3 [rev 20a0f71] log closed at 2017-02-19 18:10:53
+// Spring Roo 2.0.0.M3 [rev 20a0f71] log opened at 2017-02-19 18:11:54
+exit
+// Spring Roo 2.0.0.M3 [rev 20a0f71] log closed at 2017-02-19 18:12:01
+// Spring Roo 2.0.0.M3 [rev 20a0f71] log opened at 2017-02-19 18:13:02
+help
+hint
+project setup --topLevelPackage com.headgear
+hint
+jpa setup --provider HIBERNATE --database POSTGRES
+hint
+entity jpa --class ~.User
+entity jpa --class ~.Scores
+hint
+field number --fieldName highScore --type java.lang.Long
