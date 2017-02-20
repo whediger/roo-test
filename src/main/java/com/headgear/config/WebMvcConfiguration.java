@@ -1,5 +1,6 @@
 package com.headgear.config;
 import org.springframework.roo.addon.web.mvc.controller.annotations.config.RooWebMvcConfiguration;
+import org.springframework.roo.addon.web.mvc.thymeleaf.annotations.RooWebMvcThymeleafUIConfiguration;
 
 /**
  * = WebMvcConfiguration
@@ -7,6 +8,7 @@ import org.springframework.roo.addon.web.mvc.controller.annotations.config.RooWe
  * TODO Auto-generated class documentation
  *
  */
-@RooWebMvcConfiguration
+@RooWebMvcConfiguration(defaultLanguage = "en")
+@RooWebMvcThymeleafUIConfiguration
 public class WebMvcConfiguration {
 }

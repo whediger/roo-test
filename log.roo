@@ -26,3 +26,34 @@ web mvc setup
 hint
 web mvc controller --all
 hint
+hint topics
+hint general
+hint entities
+hint mvc
+web mvc setup
+web mvc setup
+// [failed] test integration
+hint
+hint mvc
+web mvc setup
+hint view
+hint
+hint entities
+hint topics
+hint services
+entity jpa --class ~.Users
+hint
+field string --fieldName firstName
+field string --fieldName lastName
+field number --type long --fieldName account
+hint
+hint topics
+hint general
+hint start
+hint
+hint topics
+hint controllers
+// [failed] web mvc controller
+service --all
+web mvc setup
+web mvc view setup --type THYMELEAF
