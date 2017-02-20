@@ -15,3 +15,14 @@ entity jpa --class ~.User
 entity jpa --class ~.Scores
 hint
 field number --fieldName highScore --type java.lang.Long
+// [failed] focus --class User
+hint
+// [failed] repository jpa
+repository jpa --all
+hint
+service --all
+hint
+web mvc setup
+hint
+web mvc controller --all
+hint
