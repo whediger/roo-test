@@ -58,3 +58,9 @@ service --all
 web mvc setup
 web mvc view setup --type THYMELEAF
 web mvc templates setup --type THYMELEAF 
+// [failed] finder add --entity ~.Users --name findUserByName
+// [failed] finder add --entity ~.Users --name findUserByName
+// [failed] finder add --entity ~.Users --name findByUserName
+// [failed] finder add --entity ~.Users --name findByName
+// [failed] finder add --entity ~.Users --name findByAccount
+repository jpa --entity ~.Users
