@@ -57,3 +57,4 @@ hint controllers
 service --all
 web mvc setup
 web mvc view setup --type THYMELEAF
+web mvc templates setup --type THYMELEAF 
